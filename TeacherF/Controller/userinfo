@@ -1,0 +1,12 @@
+<?php 
+
+require_once ('model/model.php');
+
+function fetchAllusers(){
+	return showAllproducts();
+
+}
+function fetchuser($id){
+	return showproduct($id);
+
+}
